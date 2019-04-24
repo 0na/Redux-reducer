@@ -4,10 +4,6 @@ import { EDIT_COMMENT } from './actions'
 import { THUMB_DOWN_COMMENT } from './actions'
 import { THUMB_UP_COMMENT } from './actions'
 
-const initialState = {
-    comments: [],
-    users: []
-};
 
 //Akcja opisująca dodawanie nowych komentarzy:
 function comments(state = [], action) {
